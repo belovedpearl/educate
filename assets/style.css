@@ -1,0 +1,128 @@
+/* Header Area */
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.letters{
+    font-size: 23px;
+    font-family: "Lora",serif;
+    font-weight: 500;
+}
+
+.navbar{
+    position: sticky;
+}
+.noborder{
+    border: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* First Section */
+
+.openingpics{
+    height: 100vh;
+
+    background: url("../assets/images/top-view-table.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#do-more{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 100%;
+    transform: translate(-50%,-50%);
+    width: 100%; 
+
+    color: whitesmoke;
+    font-family: "Laro", serif;
+    text-align: center;
+}
+#brand-call{
+    font-size: 5em;
+}
+.btn-info{
+    background-color: rgb(49, 83, 49);
+    text-transform: uppercase;
+    width: 30%;
+    font-size: 2em; 
+}
+
+/* Second part */
+h2{
+    font-size: 60px;
+    font-family: "Laro", serif;
+    font-style: italic;
+    font-weight: 500;
+}
+#second-part{
+    text-align: center;
+}
+#second-part > p{
+    font-family: "Roboto", sans-serif;
+}
+.search{
+    color: #d2242a;
+    font-family: "Lora", serif;
+}
+
+/* Third section */
+.chicken-section{
+    background: url(../assets/images/chicken-skewers.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.explore{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+}
+.grilled-section{
+    background: url(../assets/images/grilled-chicken.jpg) no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.condiment{
+    background: url(../assets/images/indian-condi.jpg) no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 1024px)  {
+   .collapse{
+    margin-left: 400px;
+   }
+ 
+}
+
+/* @media screen and (max-width: 300px)  {
+    .navlink{
+     width: 50%;
+    }
+}  */
