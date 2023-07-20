@@ -1,4 +1,5 @@
 /* Header Area */
+
 .logo{
     width: 70px;
     height: 70px;
@@ -53,13 +54,15 @@
     text-align: center;
 }
 #brand-call{
-    font-size: 5em;
+    font-size: 7vw;
+    margin: 50px 50px 30px;
 }
 .btn-info{
     background-color: rgb(49, 83, 49);
     text-transform: uppercase;
-    width: 30%;
-    font-size: 2em; 
+    width: fit-content;
+    font-size: 3vw; 
+    font-style: oblique;
 }
 
 /* Second part */
@@ -120,13 +123,32 @@ h2{
 .col-6{
     height: 300px;
 }
-.offer > p{
+/* .offer > p{
     font-size: 20px;
-}
+} */
 /* Menu section */
 #menu1{
-    background: url(../assets/images/indian-condi.jpg) no-repeat top center ;
-    
+    background: url(../assets/images/sweet-pancakes.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+
+}
+#menu2{
+    background: url(../assets/images/top-view-table.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#menu3{
+    background: url(../assets/images/) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
