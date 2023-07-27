@@ -149,6 +149,23 @@ h2{
 }
 
 
+/* fourth section */
+#reward-section{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    height: 250px;
+}
+.reward-image{
+    width: 150px;
+    height: 150px;
+}
+#reward{
+    
+}
+
+
 
 @media screen and (min-width: 1024px)  {
    .collapse{
@@ -167,6 +184,11 @@ h2{
    .col-md-gap {
     margin-bottom: 20px;
    }
+   #reward-section{
+    margin: 0;
+    padding: 30px;
+    height: 400px;
+}
 }  
 
 
