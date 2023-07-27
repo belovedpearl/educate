@@ -123,32 +123,40 @@ h2{
 .col-6{
     height: 300px;
 }
-/* .offer > p{
-    font-size: 20px;
-} */
+
 /* Menu section */
+#menu-header{
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+#menu-section{
+    background-color: rgb(78, 78, 78);
+}
+
 #menu1{
-    background: url(../assets/images/sweet-pancakes.jpg) no-repeat center center ;
+    background: url(../assets/images/sweet-pancakes.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 300px;
-
 }
 #menu2{
+    background: url(../assets/images/assortment.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px; 
+}
+#menu3{
     background: url(../assets/images/top-view-table.jpg) no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-#menu3{
-    background: url(../assets/images/) no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 300px;
 }
 
 
@@ -168,4 +176,22 @@ h2{
    .grilled-section{
     height: 100px;
    }
+   .col-md-gap {
+    margin-bottom: 20px;
+   }
 }  
+
+
+@media (min-width: 768px) {
+    .row-cols-md-gap {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .col-md-gap {
+        flex: 0 0 calc(33.33% - 20px); /* Adjust the desired gap value */
+        max-width: calc(33.33% - 20px); /* Adjust the desired gap value */
+        margin-bottom: 20px; /* Adjust the desired vertical gap value */
+    }
+}
