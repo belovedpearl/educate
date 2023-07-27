@@ -84,13 +84,8 @@ h2{
 }
 
 /* Third section */
-.chicken-section,
-.menu3{
+.chicken-section{
     background: url(../assets/images/chicken-skewers.jpg) no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 .offer > h3{
     margin-bottom: 15px;
@@ -104,10 +99,6 @@ h2{
 }
 .grilled-section{
     background: url(../assets/images/grilled-chicken.jpg) no-repeat bottom center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 .container{
     margin-top: 10px;
@@ -115,6 +106,8 @@ h2{
 }
 .condiment{
     background: url(../assets/images/indian-condi.jpg) no-repeat top center ;
+}
+.img-display{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -134,31 +127,26 @@ h2{
     background-color: rgb(78, 78, 78);
 }
 
+
 #menu1{
-    background: url(../assets/images/sweet-pancakes.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 300px;
+    background: url(../assets/images/sweet-pancakes.jpg) no-repeat center center;   
 }
 #menu2{
     background: url(../assets/images/assortment.jpg) no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 300px; 
 }
 #menu3{
     background: url(../assets/images/top-view-table.jpg) no-repeat center center ;
+}
+#menu1,
+#menu2,
+#menu3{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 300px;
+    border: 2px solid #ffffff;
 }
-
 
 
 
